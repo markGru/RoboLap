@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robolap-lab"
+version = "0.1.0"
+description = "Hardware-independent robotics skills playground (simulation-first)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+robolap = "robolap.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
