@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+.coverage
+.env
+.env.*
+!.env.example
+data/
+datasets/
+recordings/
+*.mp4
+*.bag
